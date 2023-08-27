@@ -1,10 +1,8 @@
-import { Box } from '@mui/material'
+import RouterIndex from "./router"
 
 function App() {
   return (
-    <>
-      <Box component='h2'>Vite + React</Box>
-    </>
+   <RouterIndex/>
   )
 }
 
