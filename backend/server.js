@@ -1,11 +1,18 @@
 import express from 'express'
 import dotenv from 'dotenv'
-
-const app=express();
-
-dotenv.config()
+import ConnectDb from './config/connection.js';
 
 
-app.listen(process.env.Port,()=>{
+//Dotenv
+dotenv.config();
+
+ConnectDb();
+//rest object
+
+const app = express();
+
+const port = process.env.PORT
+
+app.listen(port,()=>{
 console.log('Port no 5000');
 })
