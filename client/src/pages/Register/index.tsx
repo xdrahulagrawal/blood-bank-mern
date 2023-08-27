@@ -5,7 +5,7 @@ import SideBanner from '../../assets/images/SideImage.jpg'
 import Textfield from '../../components/Textfield'
 import SelectUserType from './SelectUserType'
 import { DonarInterface } from '../../components/types'
-import styles from './style'
+import styles from '../../assets/styles/style'
 
 
 const donar = {
